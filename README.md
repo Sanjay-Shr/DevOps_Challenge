@@ -27,6 +27,13 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Simulated a CPU-intensive process and restored normal system performance.
 - Commands used: `top`, `ps`, `kill`, `df`, `du`, `free`, `vmstat`, `nohup`.
 
+### Day 5 | Day-5-User-Management
+- Simulated a real-world scenario of managing Linux users and groups on a system.
+- Added and removed users, changed passwords, created groups, and assigned users to groups.
+- Verified system identity and status with commands like `uname`, `uptime`, `who`, `whoami`, and `id`.
+- Practiced package management and system commands (`apt`, `yum`, `dnf`, `pacman`, `portage`, `sudo`, `shutdown`, `reboot`).
+- Commands used: `adduser`, `useradd`, `userdel`, `groupadd`, `groupdel`, `gpasswd -a`, `passwd`, `su`, `whoami`, `id`, `uname`, `uptime`, `date`, `sudo`, `shutdown`, `reboot`.
+
 ---
 
 ## How to Use This Repo
