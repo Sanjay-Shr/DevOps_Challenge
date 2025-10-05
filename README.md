@@ -34,6 +34,11 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Practiced package management and system commands (`apt`, `yum`, `dnf`, `pacman`, `portage`, `sudo`, `shutdown`, `reboot`).
 - Commands used: `adduser`, `useradd`, `userdel`, `groupadd`, `groupdel`, `gpasswd -a`, `passwd`, `su`, `whoami`, `id`, `uname`, `uptime`, `date`, `sudo`, `shutdown`, `reboot`.
 
+### Day-6-File-Permissions-Archiving
+- Managing file permissions
+- Handling ownership & groups
+- Archiving & compressing files for backup
+   
 ---
 
 ## How to Use This Repo
