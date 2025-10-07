@@ -38,6 +38,14 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Managing file permissions
 - Handling ownership & groups
 - Archiving & compressing files for backup
+
+### Day-7-Network-Troubleshooting
+- Checked system network info with uname -a, hostname, ip addr, and ifconfig.
+- Monitored active connections and listening ports using netstat and ss.
+- Tested connectivity to my local system using ping, traceroute, tracepath, and mtr.
+- Queried DNS and network resolution with nslookup, dig, and host.
+- Connected to local ports with telnet and nc (netcat).
+- Checked Wi-Fi link and status using iwconfig and ifplugstatus.
    
 ---
 
