@@ -46,7 +46,16 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Queried DNS and network resolution with nslookup, dig, and host.
 - Connected to local ports with telnet and nc (netcat).
 - Checked Wi-Fi link and status using iwconfig and ifplugstatus.
-   
+
+### Day-8-Advanced Log Analysis & Cleanup
+- Created sample log files to mimic different app modules.
+- Used grep to pull out errors and warnings.
+- Parsed and summarized logs with awk.
+- Cleaned up and transformed outputs using sed.
+- Counted repeated errors to see which issues would need the most attention.
+- Found older logs and archived them neatly with tar and gzip.
+- Even set up a simple workflow to generate a weekly error summary.
+
 ---
 
 ## How to Use This Repo
