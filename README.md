@@ -56,6 +56,21 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Found older logs and archived them neatly with tar and gzip.
 - Even set up a simple workflow to generate a weekly error summary.
 
+### Day 9 | DevOps Challenge — Full Linux Workflow: Server Onboarding & App Troubleshooting
+**Scenario 1: Linux Server Onboarding & Health Check**
+- Created users and groups, and verified the system identity.
+- Checked uptime, load, and disk/memory usage.
+- Explored network configuration using ip, ss, ping, and nslookup.
+- Secured files with chmod and created backups using tar and gzip.
+- Reviewed logs and overall system health.
+
+**Scenario 2: Troubleshooting & Optimizing a Web Application Server**
+- Set up a simple demo web app using Python’s HTTP server.
+- Verified service status with ps, ss, and curl.
+- Simulated high CPU load and optimized performance using top, vmstat, and kill.
+- Checked network connections and logs via dmesg and journalctl.
+- Created backups for the app using tar.
+
 ---
 
 ## How to Use This Repo
