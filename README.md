@@ -71,6 +71,11 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Checked network connections and logs via dmesg and journalctl.
 - Created backups for the app using tar.
 
+### Day 10 | Git & GitHub Practice
+- Learned full lifecycle of a file: untracked → staged → committed → restored.
+- Learned how to connect a local repo to GitHub and push changes.
+- Reinforced confidence in handling Git for collaborative projects.
+
 ---
 
 ## How to Use This Repo
