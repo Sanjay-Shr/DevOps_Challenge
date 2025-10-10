@@ -1,6 +1,6 @@
 # Linux for DevOps — Practical Learning Challenge
 
-Welcome to my **Linux for DevOps** repository!  
+Welcome to my **DevOps Challenge** repository!  
 
 This repo documents my daily hands-on learning journey to understand Linux commands and practical DevOps workflows. Each day, I tackle real-world problems (or simulate them) to go beyond just reading commands and actually apply them.  
 
