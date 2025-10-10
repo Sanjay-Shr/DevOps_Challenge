@@ -76,6 +76,14 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Learned how to connect a local repo to GitHub and push changes.
 - Reinforced confidence in handling Git for collaborative projects.
 
+### Day 11 | Git Branching & Collaboration
+- Explored forking and cloning repositories.
+- Pulled changes from GitHub with `git pull origin main`.
+- Created and switched branches (`dev`), pushed changes, and merged PRs into `main`.
+- Checked commit history with `git log` and fetched remote branches with `git fetch`.
+- Key takeaway: Branches act as “sandboxes” for safe experimentation.
+- Commands used: `git branch`, `git checkout`, `git push`, `git pull`, `git fetch`, `git log`.
+
 ---
 
 ## How to Use This Repo
