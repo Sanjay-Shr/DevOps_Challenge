@@ -84,6 +84,12 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Key takeaway: Branches act as “sandboxes” for safe experimentation.
 - Commands used: `git branch`, `git checkout`, `git push`, `git pull`, `git fetch`, `git log`.
 
+### Day 12 | Git Hooks & GitHub Actions
+- Explored automation both locally and on GitHub.
+- Created a pre-commit hook inside `.git/hooks` that runs `flake8` before every commit to ensure clean code.
+- Tried GitHub Actions by setting up a `pylint.yml` workflow for automatic linting after every push.
+- Understood how Git Hooks handle **local pre-commit checks**, while GitHub Actions ensures **remote CI validation**.
+
 ---
 
 ## How to Use This Repo
