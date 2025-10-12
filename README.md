@@ -90,6 +90,15 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Tried GitHub Actions by setting up a `pylint.yml` workflow for automatic linting after every push.
 - Understood how Git Hooks handle **local pre-commit checks**, while GitHub Actions ensures **remote CI validation**.
 
+### Day 13 | Shell Scripting Basics  
+
+- Learned about **Linux architecture** — how the kernel, shell, and user space interact.  
+- Set up the environment and created the first script `hello.sh`.  
+- Gave executable permissions and ran it using `chmod +x` and `./hello.sh`.  
+- Practiced **variables, arguments, comments, conditions, and loops** (`for`, `while`).  
+- Created multiple demo scripts — `demo.sh`, `conditiondemo.sh`, `loopsdemo.sh`, and `whiloop.sh` — to automate tasks.  
+- Understood how shell scripting forms the **foundation of Linux automation**.  
+
 ---
 
 ## How to Use This Repo
