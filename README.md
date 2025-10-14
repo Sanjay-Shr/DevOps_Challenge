@@ -97,7 +97,25 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Gave executable permissions and ran it using `chmod +x` and `./hello.sh`.  
 - Practiced **variables, arguments, comments, conditions, and loops** (`for`, `while`).  
 - Created multiple demo scripts — `demo.sh`, `conditiondemo.sh`, `loopsdemo.sh`, and `whiloop.sh` — to automate tasks.  
-- Understood how shell scripting forms the **foundation of Linux automation**.  
+- Understood how shell scripting forms the **foundation of Linux automation**.
+
+# Day 14 | DevOps Challenge — Shell Scripting: Functions & Error Handling
+
+- Focused on enhancing shell scripting skills, specifically functions and error handling.
+- Created modular functions for tasks like cloning the Django app, installing dependencies, and deploying in Docker.
+- Learned to handle errors using exit codes and conditional checks in place of try/catch.
+- Ensured smooth deployment by checking for directory existence and verifying installations.
+- Built a deployment script that automates cloning the app, installing Docker/NGINX, and running in containers.
+- Encountered and debugged errors such as directory conflicts and dependency issues.
+- Successfully deployed the Django app after resolving all issues.
+- Gained insights into the importance of anticipating errors in DevOps automation.
+
+# Day 15 | DevOps Journey – Debugging Docker & Django (Continued)
+- **Docker Networking**: Created a custom Docker network to allow communication between containers.
+    - Commands: `docker network create mynet`, `docker run ...`
+- **Docker Compose Caching**: Encountered caching issues while rebuilding containers. Solved it by using the `--no-cache` option.
+    - Commands: `docker-compose down -v --remove-orphans`, `docker-compose build --no-cache`
+- **Clean-Up & Debugging**: Cleaned up containers, removed orphaned volumes, and used `docker logs` and `docker inspect` to troubleshoot errors.
 
 ---
 
