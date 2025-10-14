@@ -1,46 +1,47 @@
-# Day 14 | DevOps Journey – Debugging Docker & Django (Continued)
+# Day 14 | DevOps Challenge — Shell Scripting: Functions & Error Handling
 
 ## Overview
 
-Yesterday, I successfully launched my **Django Notes App** for the first time using Docker. Everything worked perfectly on the first try. However, today, I decided to push the setup further by running it multiple times to catch any potential errors. That’s when I hit a few roadblocks and spent a considerable amount of time debugging.
+Today, I focused on advancing my shell scripting skills, specifically exploring functions and error handling, which are essential for writing reliable automation scripts. These concepts are key for creating reusable and robust scripts that can automate tasks like deploying applications, managing dependencies, and handling errors gracefully.
 
-Here’s how the day unfolded:
+## What I Worked On
 
-## 1. **First Attempt Yesterday**
-- **Docker Setup**: Yesterday, I set up the app using **Docker** and **Docker Compose**, and everything ran smoothly. The **Django app** and **MySQL container** were both up and running without any issues.
-- **Surprise Today**: When I decided to run the setup multiple times today, things didn’t go as expected.
+### 1. **Functions in Shell Scripts**
+I learned how to break scripts into modular, reusable blocks using functions. This makes the code much cleaner and easier to maintain. For my deployment workflow, I created functions like:
+- `task_code_clone()` – Clones the Django app from the repository.
+- `install_requirements()` – Installs necessary dependencies like Docker and NGINX.
+- `required_restart()` – Restarts and enables services after installation or configuration changes.
+- `deploy()` – Builds and runs the Docker container for the Django app.
 
-## 2. **Debugging Docker Setup & Networking**
-- **The Issue**: Upon rerunning the containers, I faced issues with **Docker networking**. The containers weren’t communicating as expected, and I couldn’t get **Django** to connect to **MySQL**.
-- **The Fix**: After some debugging, I discovered that the containers weren’t connected to the same Docker network. I created a custom network (`mynet`) and linked both the **Django** and **MySQL** containers to it.
+### 2. **Error Handling Without try/catch**
+Since shell scripts don’t support `try/catch` like other programming languages, I learned to handle errors using exit codes and conditional statements. Some examples of error handling in my script include:
+- Checking if a directory already exists before cloning the repository.
+- Verifying that installations completed successfully.
+- Detecting system errors during service restarts (e.g., Docker, NGINX).
 
-### Commands I used:
-- `docker network create mynet`
-- `docker run -d --name db_cont --network mynet -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=mydb mysql:8.0`
-- `docker run -d --name django_cont --network mynet -e DB_HOST=db_cont -e DB_NAME=mydb -e DB_USER=root -e DB_PASS=root my_django_image`
+This approach ensures that the script fails gracefully and provides clear feedback to the user, rather than breaking silently.
 
-## 3. **Docker Compose & Build Issues**
-- **The Problem**: Next, I ran into issues related to **Docker Compose** caching. When I rebuilt the containers, I saw unexpected behavior—likely caused by old layers being cached.
-- **Solution**: To resolve this, I forced **Docker** to rebuild everything from scratch using the `--no-cache` option. After that, I restarted the services using `docker-compose up -d`.
+### 3. **Building a Practical Deployment Script**
+I applied these concepts to automate the deployment of a Django app. The script:
+- Clones the application code from a repository.
+- Installs dependencies like Docker and NGINX.
+- Configures and restarts required services.
+- Builds and runs the application in a Docker container.
 
-### Key Commands:
-- `docker-compose down -v --remove-orphans`
-- `docker system prune -af --volumes`
-- `docker-compose build --no-cache`
-- `docker-compose up -d`
+Along the way, I encountered several errors such as directory conflicts and dependency issues. Debugging these issues was a great learning experience, and by the end of the day, I was able to run the deployment script successfully.
 
-## 4. **Clean-Up & Final Debugging**
-- **The Approach**: After several attempts, I decided to do a complete clean-up. I stopped and removed the containers, deleted orphaned volumes, and ensured everything was reset.
-- **Final Debugging**: To verify that the containers were working as expected, I used `docker logs` and `docker inspect` commands to check for specific errors.
+## Key Takeaways
+1. **Functions**: Helps make scripts modular, readable, and easier to maintain.
+2. **Error Handling**: Proper error handling ensures scripts fail safely and provide useful feedback.
+3. **Anticipating Issues**: Even small oversights, like missing dependencies or directory conflicts, can break deployments, so anticipating potential errors is crucial in DevOps automation.
 
-### Final Troubleshooting Commands:
-- `docker logs django_cont`
-- `docker inspect db_cont | grep IPAddress`
-- `docker exec -it django_cont ping db_cont`
+## Conclusion
+
+Mastering shell scripting functions and error handling is an essential step toward automating DevOps workflows and building reliable, maintainable automation scripts. It was a valuable experience debugging issues and ensuring that my script would work in real-world deployment scenarios.
 
 ---
 
- **Looking forward to the next steps in my DevOps journey.**
+Looking forward to continuing my DevOps journey and tackling even more complex automation tasks!
 
-#DevOps #Docker #Django #ShellScripting #LearningByDoing #ProblemSolving
+#DevOps #ShellScripting #ErrorHandling #Automation #LearningByDoing #ProblemSolving
 
