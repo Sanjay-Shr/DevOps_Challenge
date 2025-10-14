@@ -99,7 +99,7 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Created multiple demo scripts — `demo.sh`, `conditiondemo.sh`, `loopsdemo.sh`, and `whiloop.sh` — to automate tasks.  
 - Understood how shell scripting forms the **foundation of Linux automation**.
 
-# Day 14 | DevOps Challenge — Shell Scripting: Functions & Error Handling
+### Day 14 | DevOps Challenge — Shell Scripting: Functions & Error Handling
 
 - Focused on enhancing shell scripting skills, specifically functions and error handling.
 - Created modular functions for tasks like cloning the Django app, installing dependencies, and deploying in Docker.
@@ -110,7 +110,7 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Successfully deployed the Django app after resolving all issues.
 - Gained insights into the importance of anticipating errors in DevOps automation.
 
-# Day 15 | DevOps Journey – Debugging Docker & Django (Continued)
+### Day 15 | DevOps Journey – Debugging Docker & Django (Continued)
 - **Docker Networking**: Created a custom Docker network to allow communication between containers.
     - Commands: `docker network create mynet`, `docker run ...`
 - **Docker Compose Caching**: Encountered caching issues while rebuilding containers. Solved it by using the `--no-cache` option.
