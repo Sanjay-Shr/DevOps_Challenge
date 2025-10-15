@@ -11,3 +11,4 @@ Today I practiced deployment verification by comparing a new deployment with a b
 5. Listed last 5 modified files in the new deployment using ls -ltr | tail -5
 
 This workflow gave me hands-on experience in deployment verification and basic automation, bridging my learning from Linux commands to practical DevOps tasks.
+
