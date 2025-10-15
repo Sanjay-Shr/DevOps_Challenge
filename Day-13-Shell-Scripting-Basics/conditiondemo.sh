@@ -1,4 +1,5 @@
-read -p "What's for dinner?" food
+function is_food() {
+read -p "$1 for dinner?" food
 
 if [[ $food == "Pizza" ]];
 then 
@@ -7,5 +8,8 @@ elif [[ $food == "Salad" ]];
 then
 	echo "Salad is good"
 else 
-	echo "Have anything"
+	echo "Have $1"
 fi	
+}
+
+is_food "Bottle"

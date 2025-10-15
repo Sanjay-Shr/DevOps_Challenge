@@ -2,8 +2,11 @@
 
 num=0
 
-while [[ $num%2==0 && $num -le 10 ]]
-do 
-	echo $num
-	num=$num+1
+while (( num <= 10 ))
+do
+    if (( num % 2 == 0 )); then
+        echo $num
+    fi
+    ((num++))
 done
+
