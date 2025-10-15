@@ -16,3 +16,4 @@ Today I practiced analyzing real-time logs using syslog to simulate how a DevOps
 10. Cleared the screen and displayed a summary of total logs and errors
 
 Even though this was on my local system, it gave me practical exposure to real-time log monitoring and analysis.
+
