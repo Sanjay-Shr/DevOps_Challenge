@@ -117,6 +117,7 @@ This repo documents my daily hands-on learning journey to understand Linux comma
     - Commands: `docker-compose down -v --remove-orphans`, `docker-compose build --no-cache`
 - **Clean-Up & Debugging**: Cleaned up containers, removed orphaned volumes, and used `docker logs` and `docker inspect` to troubleshoot errors.
 
+<<<<<<< Updated upstream
 ### Day 16 | DevOps Challenge — Makefile Automation
 
 - Explored **Makefiles** to automate repetitive tasks for a Flask To-Do app.
@@ -124,6 +125,22 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Learned basic error handling within Makefile commands.
 - Key takeaway: A single command like `make setup` can replace multiple manual steps, ensuring reproducible workflows and consistent project setups.
 - Reinforced the **DevOps mindset**: small automation tools build the foundation for more complex CI/CD pipelines.
+=======
+### Day 16 | Flask To-Do App with Makefile
+
+- Learned to automate project setup and execution using a **Makefile**.  
+- Created targets like `setup`, `run`, and `clean` for dependencies and app execution.  
+- Practiced basic error handling in Makefile commands.  
+- Key takeaway: Automation saves time, ensures reproducibility, and builds a foundation for CI/CD pipelines.
+
+### Day 17 | DevOps Challenge — Automating EC2 Creation
+
+- Explored automating **EC2 instance creation** using shell scripting and AWS CLI.
+- Wrote a basic script to launch an instance with parameters like AMI, instance type, key pair, security group, and subnet.
+- Added **basic error handling** by checking the command exit status.
+- Implemented **logging** to track output and ensure the script exits gracefully on failure.
+- Key takeaway: Even a simple script can automate cloud tasks and make DevOps workflows more reproducible and error-resistant.
+>>>>>>> Stashed changes
 
 ---
 
