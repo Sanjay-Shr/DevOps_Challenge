@@ -140,6 +140,16 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Implemented **logging** to track output and ensure the script exits gracefully on failure.
 - Key takeaway: Even a simple script can automate cloud tasks and make DevOps workflows more reproducible and error-resistant.
 
+### Day 18 – Backup & Rotation Automation  
+
+- Focused on automating backups and rotation using shell scripting.  
+- Created a script to back up an important directory automatically.  
+- Implemented a 5-day rotation system to remove old backups.  
+- Scheduled the script using crontab for periodic execution.  
+- Tested and verified the backup and rotation process locally.  
+- Learned how automation ensures reliability and consistency.  
+- Understood the importance of backup strategies in real-world DevOps.  
+
 ---
 
 ## How to Use This Repo
