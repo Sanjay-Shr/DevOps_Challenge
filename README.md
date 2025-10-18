@@ -150,6 +150,13 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Learned how automation ensures reliability and consistency.  
 - Understood the importance of backup strategies in real-world DevOps.  
 
+### Day 19 | Networking for DevOps
+- Started learning **Networking fundamentals**, beginning with the **OSI Model** and **TCP/IP Model**
+- Understood how systems communicate and transfer data across different layers
+- Learned why networking is essential for DevOps — enabling cloud, containers, and automation to work seamlessly
+- Gained insight into how protocols and layers relate to real-world DevOps tools like Docker and AWS
+- Next, I’ll explore IP addressing, DNS, routing, and load balancing to build stronger networking skills
+
 ---
 
 ## How to Use This Repo
