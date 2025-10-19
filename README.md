@@ -157,6 +157,13 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Gained insight into how protocols and layers relate to real-world DevOps tools like Docker and AWS
 - Next, I’ll explore IP addressing, DNS, routing, and load balancing to build stronger networking skills
 
+### Day 20 | Networking for DevOps — IP, DNS & Nginx Hosting
+- Learned about **IP addressing**, **subnets**, **DNS**, **NAT**, and **firewalls**
+- Understood how network layers interact to manage connectivity and security
+- Installed and configured **Nginx**, hosted a static website, and accessed it through port 80
+- Gained hands-on experience linking core networking concepts to real-world DevOps workflows
+- Key takeaway: Networking fundamentals like IP, DNS, and NAT are crucial before diving into cloud and container networking
+
 ---
 
 ## How to Use This Repo
