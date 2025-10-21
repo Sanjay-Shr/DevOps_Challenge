@@ -164,6 +164,13 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Gained hands-on experience linking core networking concepts to real-world DevOps workflows
 - Key takeaway: Networking fundamentals like IP, DNS, and NAT are crucial before diving into cloud and container networking
 
+### Day 22 | Networking and Load Balancing
+- Explored how load balancers distribute incoming traffic efficiently across multiple servers.  
+- Understood the network flow: Internet Gateway → Route Table → Load Balancer → NAT Gateway → Database.  
+- Learned how NAT Gateway provides secure outbound access for backend systems.  
+- Practiced troubleshooting DNS and connectivity issues using Linux tools.  
+- Reinforced the importance of networking fundamentals for every DevOps engineer.
+
 ---
 
 ## How to Use This Repo
