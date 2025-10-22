@@ -171,6 +171,15 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Practiced troubleshooting DNS and connectivity issues using Linux tools.  
 - Reinforced the importance of networking fundamentals for every DevOps engineer.
 
+# Day 23 | DevOps Challenge — Load Balancers Explained
+- Learned how **load balancers** distribute traffic across multiple servers for reliability.  
+- Studied **Application (Layer 7)**, **Network (Layer 4)**, and **Classic Load Balancers**.  
+- Understood how ALB handles HTTP/HTTPS and NLB handles TCP/UDP/TLS.  
+- Explored **Listeners**, **Target Groups**, and **Traffic Routing** in AWS.  
+- Analyzed network flow: Internet Gateway → Route Table → Application → NAT Gateway → Database.  
+- Understood the role of load balancers in improving scalability and fault tolerance.  
+- Gained insights into designing reliable, distributed cloud architectures.  
+
 ---
 
 ## How to Use This Repo
