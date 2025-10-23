@@ -180,6 +180,16 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Understood the role of load balancers in improving scalability and fault tolerance.  
 - Gained insights into designing reliable, distributed cloud architectures.  
 
+
+### Day 24 | Getting Started with Jenkins
+- Learned how Jenkins automates build, test, and deployment workflows in CI/CD.  
+- Explored Continuous Integration vs Continuous Delivery/Deployment concepts.  
+- Set up Jenkins locally and created the first admin user.  
+- Understood Jenkins jobs and created a Freestyle Project to automate simple shell tasks.  
+- Successfully executed the job and verified outputs.  
+- Realized Jenkins forms the backbone of automation in DevOps pipelines.  
+- Gained insights into Jenkins integration with AWS, Azure, and GCP.
+
 ---
 
 ## How to Use This Repo
