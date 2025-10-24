@@ -190,6 +190,14 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Realized Jenkins forms the backbone of automation in DevOps pipelines.  
 - Gained insights into Jenkins integration with AWS, Azure, and GCP.
 
+### Day 25 | Jenkins Pipeline Basics
+- Explored Jenkins Pipelines and learned how they enable stage-based automation.
+- Created a new pipeline job from the Jenkins dashboard.
+- Configured stages to create a folder and file automatically.
+- Executed the build successfully, confirming a working setup.
+- Understood how pipelines improve visibility and structure in CI/CD.
+- Gained confidence to move toward more complex Jenkins workflows.
+
 ---
 
 ## How to Use This Repo
