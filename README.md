@@ -198,6 +198,15 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Understood how pipelines improve visibility and structure in CI/CD.
 - Gained confidence to move toward more complex Jenkins workflows.
 
+### Day 26 — Setting Up Linux Server on Virtual Machine
+
+- Installed Linux Server ISO and set up a new Virtual Machine using VirtualBox.  
+- Faced an AMD-V error due to KVM kernel conflict while starting the VM.  
+- Resolved the issue by managing virtualization modules at the system level.  
+- Successfully launched and configured the Linux server environment.  
+- Learned about virtualization concepts and kernel-level troubleshooting.  
+- Gained deeper insight into setting up DevOps lab environments locally.  
+
 ---
 
 ## How to Use This Repo
