@@ -207,6 +207,14 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Learned about virtualization concepts and kernel-level troubleshooting.  
 - Gained deeper insight into setting up DevOps lab environments locally.  
 
+### Day 29 | Jenkins with GitHub Integration  
+- Connected Jenkins with GitHub for automated CI/CD workflows.  
+- Configured GitHub credentials and installed the integration plugin.  
+- Set up a personal access token and linked it securely in Jenkins.  
+- Created a pipeline job to auto-trigger builds on code pushes.  
+- Verified webhook setup and successful automated builds.  
+- Learned how secure integrations enable smooth, continuous automation.  
+
 ---
 
 ## How to Use This Repo
