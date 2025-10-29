@@ -215,6 +215,12 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Verified webhook setup and successful automated builds.  
 - Learned how secure integrations enable smooth, continuous automation.  
 
+### Day 30 – Jenkins Agent Configuration via SSH
+Configured a Linux-based Jenkins agent and connected it to the master using SSH authentication.  
+Installed Java 21, generated SSH keys, and created a new node with private key credentials.  
+Validated the connection and ensured successful agent communication via remoting.jar.  
+Learned the fundamentals of distributed Jenkins builds and secure node setup for CI/CD scalability.  
+
 ---
 
 ## How to Use This Repo
