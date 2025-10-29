@@ -207,6 +207,17 @@ This repo documents my daily hands-on learning journey to understand Linux comma
 - Learned about virtualization concepts and kernel-level troubleshooting.  
 - Gained deeper insight into setting up DevOps lab environments locally.  
 
+### Day 27 – Chhath Puja Break
+Took a pause from my DevOps journey to celebrate Chhath Puja with family.  
+Dedicated the day to festival rituals and relaxation.  
+Used the time to reflect on learning progress and upcoming goals.  
+Focused on maintaining balance between personal and professional growth.  
+
+### Day 28 – Chhath Puja Continuation
+Continued the Chhath Puja celebrations with family.  
+Engaged in traditional rituals and family support throughout the day.  
+No technical work done, focusing instead on cultural observance and balance.  
+
 ### Day 29 | Jenkins with GitHub Integration  
 - Connected Jenkins with GitHub for automated CI/CD workflows.  
 - Configured GitHub credentials and installed the integration plugin.  
