@@ -232,6 +232,12 @@ Installed Java 21, generated SSH keys, and created a new node with private key c
 Validated the connection and ensured successful agent communication via remoting.jar.  
 Learned the fundamentals of distributed Jenkins builds and secure node setup for CI/CD scalability.  
 
+### Day 31 – Jenkins Agent Integration and Pipeline Execution
+Configured a remote Linux agent in Jenkins and modified the pipeline to run through it.  
+Verified successful execution and creation of files on the agent system.  
+Created a new Jenkins item *DjangoCICD* linked with GitHub and added webhook-based build triggers.  
+Monitored builds using Stage View and analyzed performance across multiple stages.  
+
 ---
 
 ## How to Use This Repo
