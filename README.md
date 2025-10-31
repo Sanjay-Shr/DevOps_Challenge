@@ -238,6 +238,13 @@ Verified successful execution and creation of files on the agent system.
 Created a new Jenkins item *DjangoCICD* linked with GitHub and added webhook-based build triggers.  
 Monitored builds using Stage View and analyzed performance across multiple stages.  
 
+### Day 32 – Enhancing Jenkins Pipeline with Docker Compose and Image Push
+Improved the Jenkins pipeline to use `docker compose up -d` for multi-container orchestration.  
+Started implementing automated Docker image push to Docker Hub.  
+Faced several build and credential issues and focused on troubleshooting them.  
+Refined pipeline logic and reviewed logs for better stability.  
+**Focus:** Docker Compose Integration, Jenkins Automation, and Registry Push Troubleshooting  
+
 ---
 
 ## How to Use This Repo
