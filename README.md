@@ -245,6 +245,13 @@ Faced several build and credential issues and focused on troubleshooting them.
 Refined pipeline logic and reviewed logs for better stability.  
 **Focus:** Docker Compose Integration, Jenkins Automation, and Registry Push Troubleshooting  
 
+### Day 33 – Connecting Jenkins with GitHub Webhooks
+Worked on automating Jenkins builds using GitHub Webhooks for real-time CI/CD triggers.  
+Encountered webhook delivery issues while configuring the connection between GitHub and Jenkins.  
+Troubleshooting network, authentication, and configuration errors to ensure successful integration.  
+Focused on achieving a fully automated build pipeline based on repository commits.  
+**Focus:** Jenkins + GitHub Webhook Integration and CI/CD Trigger Automation
+
 ---
 
 ## How to Use This Repo
