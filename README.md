@@ -252,6 +252,13 @@ Troubleshooting network, authentication, and configuration errors to ensure succ
 Focused on achieving a fully automated build pipeline based on repository commits.  
 **Focus:** Jenkins + GitHub Webhook Integration and CI/CD Trigger Automation
 
+### Day 34 – Successfully Configured GitHub Webhooks with Jenkins
+Connected Jenkins with GitHub Webhooks to automate builds on code commits.  
+Used **ngrok** to expose the local Jenkins server securely to the internet.  
+Resolved the 403 “No valid crumb was included in the request” error by updating Jenkins CSRF settings.  
+Reconfigured the webhook in GitHub and verified the **200 OK** response.  
+**Focus:** GitHub Webhook Integration, Jenkins Security, and CI/CD Automation.
+
 ---
 
 ## How to Use This Repo
