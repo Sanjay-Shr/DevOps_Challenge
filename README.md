@@ -259,6 +259,13 @@ Resolved the 403 “No valid crumb was included in the request” error by updat
 Reconfigured the webhook in GitHub and verified the **200 OK** response.  
 **Focus:** GitHub Webhook Integration, Jenkins Security, and CI/CD Automation.
 
+### Day 35 – Implementing Jenkins Shared Libraries for Reusability
+Created a Jenkins Shared Library to reuse pipeline code across multiple projects.  
+Configured the library under **Manage Jenkins → Global Trusted Pipeline Libraries**.  
+Linked the shared library with the **DjangoCICD** project and tested it successfully.  
+Fixed an initial Groovy syntax issue in `hello.groovy` before achieving a successful build.  
+**Focus:** Jenkins Shared Libraries, Groovy, and CI/CD Code Reusability.
+
 ---
 
 ## How to Use This Repo
