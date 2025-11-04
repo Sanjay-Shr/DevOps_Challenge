@@ -266,6 +266,16 @@ Linked the shared library with the **DjangoCICD** project and tested it successf
 Fixed an initial Groovy syntax issue in `hello.groovy` before achieving a successful build.  
 **Focus:** Jenkins Shared Libraries, Groovy, and CI/CD Code Reusability.
 
+### Day 36 – Jenkins Role-Based User Management
+
+Focused on securing Jenkins by setting up **Role-Based Access Control (RBAC)**.  
+Installed and configured the **Role-Based Authorization Strategy** plugin, created multiple roles (admin, developer, viewer), and assigned permissions accordingly.  
+Validated access by logging in as different users to ensure permissions worked as expected.  
+
+**Focus:** Jenkins Security, Role-Based Access Control, and User Management.  
+
+**Tags:** `Jenkins` `DevOps` `RBAC` `Security` `UserManagement`
+
 ---
 
 ## How to Use This Repo
