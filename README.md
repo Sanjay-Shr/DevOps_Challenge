@@ -272,9 +272,11 @@ Focused on securing Jenkins by setting up **Role-Based Access Control (RBAC)**.
 Installed and configured the **Role-Based Authorization Strategy** plugin, created multiple roles (admin, developer, viewer), and assigned permissions accordingly.  
 Validated access by logging in as different users to ensure permissions worked as expected.  
 
-**Focus:** Jenkins Security, Role-Based Access Control, and User Management.  
+### Day 37 – Introduction to Docker and Containerization
 
-**Tags:** `Jenkins` `DevOps` `RBAC` `Security` `UserManagement`
+Started learning **Docker** — understanding its origin from **DotCloud** and how it solved the “works on my machine” issue.  
+Explored **Virtualization vs Containerization**, learning how Docker uses the host OS instead of running a full OS like a VM.  
+Gained clarity on why Docker is faster, lighter, and ideal for modern DevOps environments.  
 
 ---
 
