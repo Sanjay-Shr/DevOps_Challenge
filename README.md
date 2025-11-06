@@ -278,6 +278,12 @@ Started learning **Docker** — understanding its origin from **DotCloud** and h
 Explored **Virtualization vs Containerization**, learning how Docker uses the host OS instead of running a full OS like a VM.  
 Gained clarity on why Docker is faster, lighter, and ideal for modern DevOps environments.  
 
+### Day 38 – Learning Docker Architecture
+
+Explored the internal working of **Docker Architecture**, focusing on Docker Engine, Daemon, CLI, and containerd.  
+Understood how Docker CLI interacts with the Daemon, which uses containerd to create and manage containers.  
+Also created a Docker Hub account and installed Docker Desktop for upcoming hands-on sessions.  
+
 ---
 
 ## How to Use This Repo
