@@ -284,6 +284,12 @@ Explored the internal working of **Docker Architecture**, focusing on Docker Eng
 Understood how Docker CLI interacts with the Daemon, which uses containerd to create and manage containers.  
 Also created a Docker Hub account and installed Docker Desktop for upcoming hands-on sessions.  
 
+### Day 39 – Fixing Docker Daemon Issue and Learning Docker Images
+
+Resolved a Docker Daemon issue preventing Docker commands from running by updating group permissions and restarting the service.  
+Verified successful Docker CLI operations and began learning about Docker Images — blueprints that define how containers are built.  
+Understood the flow from Dockerfile → Image → Container.  
+
 ---
 
 ## How to Use This Repo
