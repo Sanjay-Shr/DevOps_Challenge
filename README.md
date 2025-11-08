@@ -290,6 +290,12 @@ Resolved a Docker Daemon issue preventing Docker commands from running by updati
 Verified successful Docker CLI operations and began learning about Docker Images — blueprints that define how containers are built.  
 Understood the flow from Dockerfile → Image → Container.  
 
+# Day 40 – Docker Pull & Java App Image Build
+
+Today I learnt how to use the docker pull command and built my first Docker image for a Java application.  
+Created a Dockerfile (screenshot attached), built the image, and ran it successfully after resolving some base image errors.  
+It helped me understand the complete workflow from Dockerfile to image to container.  
+
 ---
 
 ## How to Use This Repo
