@@ -296,6 +296,12 @@ Today I learnt how to use the docker pull command and built my first Docker imag
 Created a Dockerfile (screenshot attached), built the image, and ran it successfully after resolving some base image errors.  
 It helped me understand the complete workflow from Dockerfile to image to container.  
 
+# Day 41 – Containerizing a Flask App with Docker
+
+Today I created and containerized a Flask application using Docker.  
+Cloned the project from GitHub, wrote a Dockerfile (screenshot attached), built and ran the container successfully after fixing a port mapping issue.  
+It helped me understand how Docker packages a complete web app environment and how networking between host and container works.
+
 ---
 
 ## How to Use This Repo
