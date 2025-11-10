@@ -302,6 +302,12 @@ Today I created and containerized a Flask application using Docker.
 Cloned the project from GitHub, wrote a Dockerfile (screenshot attached), built and ran the container successfully after fixing a port mapping issue.  
 It helped me understand how Docker packages a complete web app environment and how networking between host and container works.
 
+# Day 42 – Understanding Docker Networking
+
+Learnt about Docker Networking and its seven types — Host, Bridge, User-defined Bridge, None, MACVLAN, IPVLAN, and Overlay.  
+Explored existing default networks using `docker network ls` and created a custom network using the bridge driver.  
+Understood how container networking enables communication and isolation in real-world applications.
+
 ---
 
 ## How to Use This Repo
