@@ -308,6 +308,13 @@ Learnt about Docker Networking and its seven types — Host, Bridge, User-define
 Explored existing default networks using `docker network ls` and created a custom network using the bridge driver.  
 Understood how container networking enables communication and isolation in real-world applications.
 
+# Day 43 – Building a Two-Tier Application with Docker
+
+Built and ran a two-tier Docker setup with Flask as the backend and MySQL as the database.  
+Created a custom Docker bridge network for container communication and configured environment variables for database connectivity.  
+Resolved MySQL authentication issues by resetting credentials and granting privileges.  
+Verified the Flask app was successfully running on port 5000 after linking both containers.
+
 ---
 
 ## How to Use This Repo
