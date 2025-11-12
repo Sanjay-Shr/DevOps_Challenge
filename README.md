@@ -290,31 +290,40 @@ Resolved a Docker Daemon issue preventing Docker commands from running by updati
 Verified successful Docker CLI operations and began learning about Docker Images — blueprints that define how containers are built.  
 Understood the flow from Dockerfile → Image → Container.  
 
-# Day 40 – Docker Pull & Java App Image Build
+### Day 40 – Docker Pull & Java App Image Build
 
 Today I learnt how to use the docker pull command and built my first Docker image for a Java application.  
 Created a Dockerfile (screenshot attached), built the image, and ran it successfully after resolving some base image errors.  
 It helped me understand the complete workflow from Dockerfile to image to container.  
 
-# Day 41 – Containerizing a Flask App with Docker
+### Day 41 – Containerizing a Flask App with Docker
 
 Today I created and containerized a Flask application using Docker.  
 Cloned the project from GitHub, wrote a Dockerfile (screenshot attached), built and ran the container successfully after fixing a port mapping issue.  
 It helped me understand how Docker packages a complete web app environment and how networking between host and container works.
 
-# Day 42 – Understanding Docker Networking
+### Day 42 – Understanding Docker Networking
 
 Learnt about Docker Networking and its seven types — Host, Bridge, User-defined Bridge, None, MACVLAN, IPVLAN, and Overlay.  
 Explored existing default networks using `docker network ls` and created a custom network using the bridge driver.  
 Understood how container networking enables communication and isolation in real-world applications.
 
-# Day 43 – Building a Two-Tier Application with Docker
+### Day 43 – Building a Two-Tier Application with Docker
 
 Built and ran a two-tier Docker setup with Flask as the backend and MySQL as the database.  
 Created a custom Docker bridge network for container communication and configured environment variables for database connectivity.  
 Resolved MySQL authentication issues by resetting credentials and granting privileges.  
 Verified the Flask app was successfully running on port 5000 after linking both containers.
 
+### Day 44 | Docker Volumes and Persistent Storage
+
+Today’s focus was on ensuring data persistence in Docker containers using **Volumes** and **Bind Mounts**.  
+I learned how to store and recover MySQL data even after container deletion or restarts.  
+Created a named volume "mysql-data" and also tested bind mounting a host directory to "/var/lib/mysql".  
+Verified that the data persisted successfully and was accessible directly from the host machine.  
+This helped me understand how Docker handles stateful services and why volumes are essential in production.
+
+#DevOps #Docker #Storage #Volumes #BindMounts #Persistence #MySQL
 ---
 
 ## How to Use This Repo
