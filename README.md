@@ -354,6 +354,14 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Verified that the data persisted successfully and was accessible directly from the host machine.
 - Gained a deeper understanding of how Docker handles stateful services and the importance of volumes in production.
 
+### Day 45 | Docker Compose Basics & Troubleshooting Buildx
+
+- Today, I started learning **Docker Compose**, a tool that lets you define and run multi-container applications with a single YAML file.  
+- I rewrote my `docker-compose.yml` file from scratch to understand every configuration section better.  
+- Installed Docker Compose v2 and tried running "docker compose up", but encountered Buildx-related issues.  
+- Spent time troubleshooting plugin setups, reinstalling components, and checking system compatibility.  
+- Although the issue remains unresolved, I now have a much stronger grasp of how Docker Compose and Buildx work together.
+
 ---
 
 ## How to Use This Repo
