@@ -362,6 +362,14 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Spent time troubleshooting plugin setups, reinstalling components, and checking system compatibility.  
 - Although the issue remains unresolved, I now have a much stronger grasp of how Docker Compose and Buildx work together.
 
+### Day 46 | Fixing Timing Issues in Docker Compose (Flask + MySQL)
+
+- Today, I fixed the Docker Compose issue that was stopping my two-tier setup from running.  
+- The root cause was that Flask started faster than MySQL, causing early connection failures.  
+- I added a **healthcheck** for MySQL and configured Flask to wait until the database became healthy.  
+- Once both services were aligned, the application ran successfully and showed the expected output.  
+- This session gave me deeper insight into container startup timing, dependencies, and proper orchestration.
+
 ---
 
 ## How to Use This Repo
