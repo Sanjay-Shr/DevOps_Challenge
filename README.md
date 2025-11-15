@@ -370,6 +370,14 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Once both services were aligned, the application ran successfully and showed the expected output.  
 - This session gave me deeper insight into container startup timing, dependencies, and proper orchestration.
 
+### Day 47 — Docker Cleanup and DockerHub Integration
+
+- Today, I learned how to use Docker cleanup commands such as `docker system prune`, `docker rmi`, and `docker images -aq`.  
+- I practiced tagging images using `docker image tag` and pushed/pulled images with DockerHub.  
+- I updated my `docker-compose.yml` file to use a DockerHub-hosted image instead of building locally.  
+- Finally, I ran the setup with `docker compose up` and confirmed that the image was pulled and executed successfully.  
+- This helped me understand Docker image lifecycle management and registry-based deployments.
+
 ---
 
 ## How to Use This Repo
