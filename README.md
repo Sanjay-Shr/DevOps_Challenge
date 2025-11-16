@@ -378,6 +378,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Finally, I ran the setup with `docker compose up` and confirmed that the image was pulled and executed successfully.  
 - This helped me understand Docker image lifecycle management and registry-based deployments.
 
+### Day 48 – Multi-Stage Docker Build (Summary)
+
+- Learnt how multi-stage Docker builds help in reducing image size.
+- Understood the difference between build stage and runtime stage.
+- Used a heavy image only for installing dependencies.
+- Used a lightweight image for running the app.
+- Successfully reduced the image size from ~1 GB to ~142 MB.
+- Multi-stage builds improve efficiency, performance, and security.
+
 ---
 
 ## How to Use This Repo
