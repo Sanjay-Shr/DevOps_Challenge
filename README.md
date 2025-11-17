@@ -387,6 +387,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Successfully reduced the image size from ~1 GB to ~142 MB.
 - Multi-stage builds improve efficiency, performance, and security.
 
+### Day 49 - Docker Monitoring & nohup
+
+- Today I worked on improving container log monitoring using `nohup`.  
+- Instead of manually running `docker logs` repeatedly, I used `"nohup docker attach 74e7e186a8b3 &"` to store logs in the background.  
+- I generated different log outputs by accessing multiple endpoints in my Flask app.  
+- All logs were captured inside the `nohup.out` file, making debugging simpler.  
+- Learnt how nohup helps maintain continuous logging even after the terminal is closed.  
+- A good first step before using advanced monitoring tools like ELK or Prometheus.
+
 ---
 
 ## How to Use This Repo
