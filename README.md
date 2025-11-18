@@ -396,6 +396,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Learnt how nohup helps maintain continuous logging even after the terminal is closed.  
 - A good first step before using advanced monitoring tools like ELK or Prometheus.
 
+### Day 50 - Why Docker Needs Kubernetes in Production
+
+- Today I learnt that Docker is not used alone in production because it cannot handle failures, scaling, or resource management by itself.  
+- A simple command like `docker stop 4bd` can accidentally bring down a running container, which makes it risky in live environments.  
+- Kubernetes solves this by auto-healing failed containers and launching new ones instantly.  
+- It also handles auto-scaling during high traffic events based on CPU and memory usage.  
+- Behind Kubernetes, Docker containers still run, but in a controlled and reliable way.  
+- This helped me understand why orchestration is essential for real-world production workloads.
+
 ---
 
 ## How to Use This Repo
