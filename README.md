@@ -405,6 +405,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Behind Kubernetes, Docker containers still run, but in a controlled and reliable way.  
 - This helped me understand why orchestration is essential for real-world production workloads.
 
+### Day 51 - Environment Setup for DevOps Project
+
+- Today I focused on preparing the environment for the new DevOps project.  
+- I verified all the necessary tools, prerequisites, and configurations required for development.  
+- Reviewed the project structure and planned how components will be organized.  
+- Prepared the base setup for Docker, backend services, and supporting tools.  
+- This foundation will help avoid issues and make the upcoming development smoother.  
+- From tomorrow, I will begin building and integrating the project components.
+
 ---
 
 ## How to Use This Repo
