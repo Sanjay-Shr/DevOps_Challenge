@@ -414,6 +414,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - This foundation will help avoid issues and make the upcoming development smoother.  
 - From tomorrow, I will begin building and integrating the project components.
 
+### Day 52 — Project Setup Summary
+
+- Began setting up a Django + NGINX + MySQL project using Docker.
+- Created the Dockerfile for the Django backend from scratch.
+- Wrote the `docker-compose.yml` file to manage all three services.
+- Prepared folder structure for backend, NGINX, and MySQL volumes.
+- Planned service communication and networking.
+- Ready to integrate and test the containers in the next phase.
+
 ---
 
 ## How to Use This Repo
