@@ -423,6 +423,18 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Planned service communication and networking.
 - Ready to integrate and test the containers in the next phase.
 
+### Day 53 – Improvements to Django + NGINX + MySQL Setup
+
+- Continued working on the Django Notes App project with three containers: Django, NGINX, and MySQL.
+- Reviewed and corrected multiple issues in yesterday’s docker-compose configuration.
+- Improved service definitions for better reliability and communication across containers.
+- Added proper `depends_on` logic so Django does not start before MySQL is ready.
+- Implemented a MySQL healthcheck to ensure stable database availability.
+- Updated the NGINX configuration to align with Django backend routing.
+- Fixed issues in the Django startup command, including running migrations before starting the server.
+- Rebuilt all services and tested container interactions.
+- Found a few remaining errors that will be fixed in tomorrow’s session.
+
 ---
 
 ## How to Use This Repo
