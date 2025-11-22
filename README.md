@@ -435,6 +435,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Rebuilt all services and tested container interactions.
 - Found a few remaining errors that will be fixed in tomorrow’s session.
 
+### Day 54 – Multi-Container Troubleshooting Summary
+
+- Debugged NGINX upstream error caused by incorrect backend service name.
+- Corrected routing configuration between NGINX and Django.
+- Fixed Django’s DB connection issues by adding a proper MySQL health check.
+- Introduced a wait-for-it script to delay Django startup until MySQL is ready.
+- Rebuilt all containers to test communication flow.
+- Verified successful startup: migrations ran and Gunicorn launched correctly.
+- Ensured all three services communicate as expected.
 ---
 
 ## How to Use This Repo
