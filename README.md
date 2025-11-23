@@ -444,6 +444,18 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Rebuilt all containers to test communication flow.
 - Verified successful startup: migrations ran and Gunicorn launched correctly.
 - Ensured all three services communicate as expected.
+
+### Day 55 – Three-Tier App Setup Summary
+
+- Began a new three-tier application (Thymeleaf + Spring Boot + MySQL).
+- Cloned the repository and reviewed all project files.
+- Created Dockerfile using Maven base image for the Spring Boot service.
+- Created docker-compose.yml to run backend + MySQL together.
+- Encountered a MySQL authentication issue during startup.
+- Backend logs showed “Public Key Retrieval is not allowed”.
+- Identified that JDBC and MySQL security parameters need updates.
+- Will fix connectivity and continue debugging tomorrow.
+
 ---
 
 ## How to Use This Repo
