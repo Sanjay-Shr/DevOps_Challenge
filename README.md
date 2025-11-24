@@ -456,6 +456,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Identified that JDBC and MySQL security parameters need updates.
 - Will fix connectivity and continue debugging tomorrow.
 
+### Day 56 – Troubleshooting MySQL Startup Failure
+
+- Today I focused on resolving a MySQL container failure that was preventing the Spring Boot application from starting.  
+- Even after configuration fixes, the database container was failing due to corrupted InnoDB storage in the data directory.  
+- I cleared the MySQL data volume and rebuilt the environment, which restored normal startup.  
+- This resolved the JDBC connection issue and stabilised the entire stack.  
+- The day highlighted the importance of proper volume handling and reading container logs carefully.  
+- Next, I will refine the Docker setup and continue application development.
+
 ---
 
 ## How to Use This Repo
