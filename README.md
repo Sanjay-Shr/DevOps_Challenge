@@ -465,16 +465,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - The day highlighted the importance of proper volume handling and reading container logs carefully.  
 - Next, I will refine the Docker setup and continue application development.
 
-# Day 57 — Nginx Integration & Domain Mapping
+### Day 57 — Nginx Integration & Domain Mapping
 
 - Added Nginx as a reverse proxy for the Expense Tracker application.
 - Fixed MySQL volume permission issues caused by unexpected system restart.
 - Created the Nginx directory with `default.conf` and an Nginx Dockerfile.
-- Troubleshot a routing failure caused by incorrect proxy/_pass port (8000 instead of 8080).
+- Troubleshot a routing failure caused by incorrect proxy_pass port (8000 instead of 8080).
 - Successfully integrated Nginx and verified the application output in the browser.
 - Added a new domain, configured the A record, and updated Nginx for domain-based access.
-- Application is now accessible publicly through the mapped domain.
-
+- Application is now accessible publicly through the mapped domain. 
 
 ---
 
