@@ -475,6 +475,16 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Added a new domain, configured the A record, and updated Nginx for domain-based access.
 - Application is now accessible publicly through the mapped domain. 
 
+### Day 58 — Troubleshooting Website Deployment
+
+- Website deployed via Docker and Nginx is not accessible publicly today.
+- Backend Java App and MySQL containers are running successfully.
+- Updated DNS records and Nginx configuration, but site still times out.
+- Confirmed Tomcat server is operational inside container.
+- Suspected issues with routing, DNS propagation, or proxy configuration.
+- Collected logs and prepared for detailed troubleshooting tomorrow.
+- Ensuring systematic debugging for production-grade deployment.
+
 ---
 
 ## How to Use This Repo
