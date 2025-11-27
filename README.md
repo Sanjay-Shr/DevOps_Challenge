@@ -485,6 +485,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Collected logs and prepared for detailed troubleshooting tomorrow.
 - Ensuring systematic debugging for production-grade deployment.
 
+# Day 59 — Domain Connectivity Fixed
+
+- DNS was not resolving properly, causing the deployed app to be unreachable.
+- Verified A records and waited for DNS propagation.
+- Corrected Nginx `default.conf` reverse proxy configuration.
+- Restarted containers and revalidated routing.
+- Application successfully accessible through the custom domain.
+- Completed the project after resolving deployment and DNS issues.
+
 ---
 
 ## How to Use This Repo
