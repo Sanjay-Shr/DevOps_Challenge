@@ -494,6 +494,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Application successfully accessible through the custom domain.
 - Completed the project after resolving deployment and DNS issues.
 
+### Day 60 — Docker Scout & Docker Init
+
+- Explored Docker Scout for scanning vulnerabilities in container images.
+- Connected repo to Scout and viewed high/medium/warning-level risks.
+- Used `docker scout quickview` and `docker scout cves` for detailed analysis.
+- Learned how to use Scout results to improve image security.
+- Used `docker init` to auto-generate Dockerfile and docker-compose.yml.
+- Answered setup prompts and reviewed the generated project files.
+
 ---
 
 ## How to Use This Repo
