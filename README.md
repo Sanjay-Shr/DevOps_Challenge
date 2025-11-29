@@ -503,6 +503,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Used `docker init` to auto-generate Dockerfile and docker-compose.yml.
 - Answered setup prompts and reviewed the generated project files.
 
+### Day 61 – Kubernetes Introduction
+
+- Learned the history of Kubernetes and how it originated from Google’s Borg system.
+- Understood why container orchestration became necessary in large-scale systems.
+- Explored Kubernetes features like auto-scaling, auto-healing, and desired-state management.
+- Learned why Kubernetes is called K8s (K + 8 letters + s).
+- Understood Kubernetes' role in managing multi-container environments.
+- Foundation set for upcoming hands-on Kubernetes components and architecture.
+
 ---
 
 ## How to Use This Repo
