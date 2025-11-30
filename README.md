@@ -512,6 +512,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Understood Kubernetes' role in managing multi-container environments.
 - Foundation set for upcoming hands-on Kubernetes components and architecture.
 
+### Day 62 – Understanding Monolithic vs Microservices and Kubernetes Architecture
+
+- Learned the difference between monolithic and microservices architecture.  
+- Understood why monolithic apps are difficult to scale and update.  
+- Studied Kubernetes architecture including master and worker node roles.  
+- Explored key Kubernetes components like API Server, Scheduler, etcd, and Kubelet.  
+- Understood how pods, services, and CNI networks operate.  
+- Learned how kubectl interacts with the cluster to manage workloads.  
+- Strengthened core orchestration fundamentals required for future Kubernetes work.
 ---
 
 ## How to Use This Repo
