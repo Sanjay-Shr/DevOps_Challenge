@@ -521,6 +521,17 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Understood how pods, services, and CNI networks operate.  
 - Learned how kubectl interacts with the cluster to manage workloads.  
 - Strengthened core orchestration fundamentals required for future Kubernetes work.
+
+### Day 63 – Setting Up Kubernetes Environment and Understanding Cluster Types
+
+- Learned different Kubernetes cluster types: kubeadm, Minikube, KIND, and cloud-managed services.  
+- Understood that kubeadm is used for manually building multi-node clusters.  
+- Explored Minikube for local single-node testing environments.  
+- Studied KIND clusters that run Kubernetes inside Docker containers.  
+- Learned about managed services like EKS, AKS, and GKE.  
+- Installed KIND on my system to begin Kubernetes hands-on.  
+- Now ready to create and test workloads on a local Kubernetes environment.
+
 ---
 
 ## How to Use This Repo
