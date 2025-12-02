@@ -532,6 +532,14 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Installed KIND on my system to begin Kubernetes hands-on.  
 - Now ready to create and test workloads on a local Kubernetes environment.
 
+### # Day 64 – Creating a Custom Kubernetes Cluster Configuration with KIND
+
+- Created a custom `config.yml` defining 1 control-plane and 3 worker nodes.
+- Added port mappings to expose ports 80 and 443 from the cluster to the host.
+- Attempted cluster creation using: kind create cluster --name=demo-cluster --config=config.yml
+- Faced an error during creation and will troubleshoot it tomorrow.
+- Learned how KIND uses YAML configs to define cluster topology.
+- Next step: fix the error and successfully create the multi-node cluster.
 ---
 
 ## How to Use This Repo
