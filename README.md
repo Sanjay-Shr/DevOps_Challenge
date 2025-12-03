@@ -540,6 +540,16 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Faced an error during creation and will troubleshoot it tomorrow.
 - Learned how KIND uses YAML configs to define cluster topology.
 - Next step: fix the error and successfully create the multi-node cluster.
+
+### Day 65 – KIND Cluster Creation and Minikube Setup
+
+- Fixed KIND cluster issue by resetting Docker and recreating the config file.
+- Successfully created a multi-node cluster and verified it with kubectl commands.
+- Installed required packages and downloaded Minikube on my system.
+- Faced a version error and resolved it using docker context use default.
+- Compared KIND and Minikube to understand different Kubernetes setups.
+- Next step: Deploy sample workloads on both environments.
+
 ---
 
 ## How to Use This Repo
