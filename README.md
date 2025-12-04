@@ -550,6 +550,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Compared KIND and Minikube to understand different Kubernetes setups.
 - Next step: Deploy sample workloads on both environments.
 
+### Day 66 – Understanding Kubeadm Cluster Setup
+
+- Learned how kubeadm creates multi-node Kubernetes clusters using separate master and worker nodes.
+- Understood containerd and its role as the Kubernetes container runtime.
+- Studied system requirements including disabling swap and opening port 6443.
+- Explored kubeadm init for the master and kubeadm join for worker nodes.
+- Learned about kubeconfig setup for non-root Kubernetes management.
+- Reviewed the need for network plugins and pre-flight checks on worker nodes.
+
 ---
 
 ## How to Use This Repo
