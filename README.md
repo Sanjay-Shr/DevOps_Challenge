@@ -559,6 +559,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Learned about kubeconfig setup for non-root Kubernetes management.
 - Reviewed the need for network plugins and pre-flight checks on worker nodes.
 
+### Day 68 – System Crash During Kubernetes Work
+
+- System crashed while experimenting with Kubernetes clusters.
+- Investigated the cause and attempted OS recovery.
+- Identified issues such as resource overload or misconfigurations.
+- Prepared for a full OS reinstall if recovery fails.
+- Backed up all files before repairing the system.
+- Will rebuild Kubernetes environment once the system is stable.
+
 ---
 
 ## How to Use This Repo
