@@ -568,6 +568,16 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Backed up all files before repairing the system.
 - Will rebuild Kubernetes environment once the system is stable.
 
+### Day 69 – Kubernetes Pods, Deployments, Services And Namespaces
+
+- Containers in Kubernetes run inside Pods, not independently.  
+- Deployments provide auto healing and auto scaling for Pods.  
+- Services expose Deployments to users outside the cluster.  
+- Workflow: Container → Pod → Deployment → Service.  
+- Namespaces isolate resources and prevent cross-interference.  
+- Used kubectl commands to explore namespaces and system components.  
+- Created an nginx namespace and deployed an NGINX Pod inside it.
+
 ---
 
 ## How to Use This Repo
