@@ -578,6 +578,16 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Used kubectl commands to explore namespaces and system components.  
 - Created an nginx namespace and deployed an NGINX Pod inside it.
 
+### Day 70 – Creating Kubernetes Resources Using YAML Manifests
+
+- Deleted old nginx namespace to start clean.  
+- Created an nginx folder to store manifest files.  
+- Wrote namespace.yml and applied it using `kubectl apply -f namespace.yml`.  
+- Created pod.yml and deployed the NGINX Pod using `kubectl apply -f pod.yml`.  
+- Verified functionality by entering the Pod using `kubectl exec -it pod/nginx-pod -n nginx -- bash`.  
+- Learned how manifests convert declarative YAML into real cluster resources.  
+- Understood why YAML-based deployment is essential for GitOps workflows.
+
 ---
 
 ## How to Use This Repo
