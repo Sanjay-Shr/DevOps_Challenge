@@ -588,6 +588,15 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Learned how manifests convert declarative YAML into real cluster resources.  
 - Understood why YAML-based deployment is essential for GitOps workflows.
 
+### Day 71 – ReplicaSets, StatefulSets, and Deployments in Kubernetes
+
+- Learned the differences between ReplicaSets, StatefulSets, and Deployments.  
+- ReplicaSets create identical Pods, StatefulSets maintain ordered identities.  
+- Deployments perform rolling updates to ensure zero downtime.  
+- Created a Deployment.yml and deployed multiple Pod replicas.  
+- Troubleshot a Pod stuck in ImagePullPolicy due to worker node network issues.  
+- Restarted services and fixed networking, then deleted the failed Pod.  
+- Scaled the Deployment to 5 replicas and verified all Pods were running.
 ---
 
 ## How to Use This Repo
