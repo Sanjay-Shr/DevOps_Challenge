@@ -559,7 +559,7 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Learned about kubeconfig setup for non-root Kubernetes management.
 - Reviewed the need for network plugins and pre-flight checks on worker nodes.
 
-### Day 68 – System Crash During Kubernetes Work
+### Day 67 – System Crash During Kubernetes Work
 
 - System crashed while experimenting with Kubernetes clusters.
 - Investigated the cause and attempted OS recovery.
@@ -568,7 +568,7 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Backed up all files before repairing the system.
 - Will rebuild Kubernetes environment once the system is stable.
 
-### Day 69 – Kubernetes Pods, Deployments, Services And Namespaces
+### Day 68 – Kubernetes Pods, Deployments, Services And Namespaces
 
 - Containers in Kubernetes run inside Pods, not independently.  
 - Deployments provide auto healing and auto scaling for Pods.  
@@ -578,7 +578,7 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Used kubectl commands to explore namespaces and system components.  
 - Created an nginx namespace and deployed an NGINX Pod inside it.
 
-### Day 70 – Creating Kubernetes Resources Using YAML Manifests
+### Day 69 – Creating Kubernetes Resources Using YAML Manifests
 
 - Deleted old nginx namespace to start clean.  
 - Created an nginx folder to store manifest files.  
@@ -588,7 +588,7 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Learned how manifests convert declarative YAML into real cluster resources.  
 - Understood why YAML-based deployment is essential for GitOps workflows.
 
-### Day 71 – ReplicaSets, StatefulSets, and Deployments in Kubernetes
+### Day 70 – ReplicaSets, StatefulSets, and Deployments in Kubernetes
 
 - Learned the differences between ReplicaSets, StatefulSets, and Deployments.  
 - ReplicaSets create identical Pods, StatefulSets maintain ordered identities.  
@@ -597,6 +597,16 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Troubleshot a Pod stuck in ImagePullPolicy due to worker node network issues.  
 - Restarted services and fixed networking, then deleted the failed Pod.  
 - Scaled the Deployment to 5 replicas and verified all Pods were running.
+
+### Day 71 – Rolling Updates in Kubernetes Deployments
+
+- Updated an existing NGINX Deployment using kubectl set image.  
+- Faced ImagePullError due to wrong syntax, then corrected it.  
+- Used the correct command: kubectl set image deployment/nginx-deployment -n nginx nginx=nginx:1.28  
+- Observed rolling updates where Pods were replaced gradually.  
+- Some Pods stayed running while others updated, ensuring availability.  
+- Understood how rolling updates prevent downtime in Kubernetes.  
+- Learned the importance of correct image tagging during updates.
 ---
 
 ## How to Use This Repo
