@@ -607,6 +607,16 @@ Verified the Flask app was successfully running on port 5000 after linking both 
 - Some Pods stayed running while others updated, ensuring availability.  
 - Understood how rolling updates prevent downtime in Kubernetes.  
 - Learned the importance of correct image tagging during updates.
+
+### Day 72 – ReplicaSets and DaemonSets in Kubernetes
+
+- ReplicaSets maintain a fixed number of Pods but do not support rolling updates.  
+- Deployment and ReplicaSet YAML files are almost identical with minor differences.  
+- Deployments are more advanced because they add update strategies.  
+- DaemonSets ensure one Pod runs on every node without specifying replicas.  
+- Useful for monitoring agents, logging agents, and network plugins.  
+- Created and tested both ReplicaSet and DaemonSet YAMLs using kubectl apply.  
+- Observed how their behaviors differ even though the YAML looks similar.
 ---
 
 ## How to Use This Repo
